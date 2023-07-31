@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome Network Listener",
+    "version": "1.0",
+    "description": "Tracks network requests and displays domain information in a side panel.",
+    "permissions": [
+        "webNavigation",
+        "sidePanel"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "scripts/background.js"
+    },
+    "side_panel": {
+        "default_path": "sidepanel.html"
+      },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
