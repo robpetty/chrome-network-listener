@@ -12,10 +12,11 @@ Currently, listens to all active Chrome instances and all tabs, except incognito
 - Click "Load unpacked" and open the containing folder.
 
 # Usage
-- Open Chrome Side panel.
-<img src="images/Chrome Side Panel Launcher.png" width="250" align="center" alt="Chrome Side Panel Launcher">
+- Open Chrome Side panel. 
+<img src="images/Chrome Side Panel Launcher.png" width="250">
+
 - Select Chrome Network Listener from the list.
-<img src="images/Chrome Side Panel Options Selector.png" width="250" align="center" alt="Chrome Side Panel Option Selector">
+<img src="images/Chrome Side Panel Options Selector.png">
 
 
 # Data Use Case
