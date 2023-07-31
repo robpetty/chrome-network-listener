@@ -13,9 +13,10 @@ Currently, listens to all active Chrome instances and all tabs, except incognito
 
 # Usage
 - Open Chrome Side panel.
-![Chrome Network Listener](<images/Chrome Side Panel Launcher.png>)
+<img src="images/Chrome Side Panel Launcher.png" width="250" align="center" alt="Chrome Side Panel Launcher">
 - Select Chrome Network Listener from the list.
-![Alt text](<images/Chrome Side Panel Options Selector.png>)
+<img src="images/Chrome Side Panel Options Selector.png" width="250" align="center" alt="Chrome Side Panel Option Selector">
+
 
 # Data Use Case
 - Find domains to block at your firewall.
